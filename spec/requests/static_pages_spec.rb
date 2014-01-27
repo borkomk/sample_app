@@ -21,7 +21,7 @@ describe "StaticPages" do
     it "should have the content 'Help' " do
       # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
       visit '/static_pages/help'
-      page.should have_selector("h1", :text => "Help")
+      page.should have_selector("h1", :text => 'Help')
     end
 
     it "it should have the title 'Help' "do
